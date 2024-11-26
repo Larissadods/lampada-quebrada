@@ -9,18 +9,18 @@ function lampQuebrada() {
 
 function ligarLamp() {
     if (lampQuebrada()) {
-    lampada.src = "lampada-acesa.jpg"
+    lampada.src = "./lampada-acesa.jpg"
     }
 }
 
 function desligarLamp() {
     if (lampQuebrada()) {
-    lampada.src = "lampada-apagada.jpg"
+    lampada.src = "./lampada-apagada.jpg"
     }
 }
 
 function quebrarLamp() {
-    lampada.src = "lampada-quebrada.jpg"
+    lampada.src = "./lampada-quebrada.jpg"
 }
 
 ligar.addEventListener('click', ligarLamp)
